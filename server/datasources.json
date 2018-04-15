@@ -1,6 +1,12 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
+  "mongoDS": {
+    "host": "ds157980.mlab.com",
+    "port": 57980,
+    "url": "",
+    "database": "majan",
+    "password": "adminmajan",
+    "name": "mongoDS",
+    "user": "majanadmin",
+    "connector": "mongodb"
   }
 }
