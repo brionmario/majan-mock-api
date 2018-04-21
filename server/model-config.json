@@ -28,5 +28,9 @@
   "invoice": {
     "dataSource": "mongoDS",
     "public": true
+  },
+  "vehicle": {
+    "dataSource": "mongoDS",
+    "public": true
   }
 }
