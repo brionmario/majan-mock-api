@@ -16,5 +16,9 @@
   "user": {
     "dataSource": "mongoDS",
     "public": true
+  },
+  "client": {
+    "dataSource": "mongoDS",
+    "public": true
   }
 }
