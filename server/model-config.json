@@ -20,5 +20,9 @@
   "client": {
     "dataSource": "mongoDS",
     "public": true
+  },
+  "job": {
+    "dataSource": "mongoDS",
+    "public": true
   }
 }
