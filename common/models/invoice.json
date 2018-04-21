@@ -1,0 +1,43 @@
+{
+  "name": "invoice",
+  "plural": "invoice",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "invoiceNumber": {
+      "type": "string",
+      "required": true
+    },
+    "client": {
+      "type": "object",
+      "required": true
+    },
+    "vehicles": {
+      "type": [
+        "object"
+      ],
+      "required": true
+    },
+    "jobs": {
+      "type": [
+        "object"
+      ],
+      "required": true
+    },
+    "creator": {
+      "type": "string",
+      "required": true
+    },
+    "totalPrice": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
