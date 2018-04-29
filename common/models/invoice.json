@@ -9,7 +9,13 @@
   "properties": {
     "invoiceNumber": {
       "type": "string",
-      "required": true
+      "required": false,
+      "default": "#879875765"
+    },
+    "date": {
+      "type": "string",
+      "required": false,
+      "default": "29-04-2018"
     },
     "client": {
       "type": "object",
@@ -27,7 +33,8 @@
     },
     "creator": {
       "type": "string",
-      "required": true
+      "required": false,
+      "default": "brions"
     },
     "totalPrice": {
       "type": "string",
