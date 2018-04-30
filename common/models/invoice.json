@@ -36,8 +36,8 @@
       "required": false,
       "default": "brions"
     },
-    "totalPrice": {
-      "type": "string",
+    "pricing": {
+      "type": "object",
       "required": true
     }
   },
