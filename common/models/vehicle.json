@@ -7,7 +7,7 @@
     "validateUpsert": true
   },
   "properties": {
-    "registrationPlate": {
+    "registration": {
       "type": "string",
       "required": true
     },
