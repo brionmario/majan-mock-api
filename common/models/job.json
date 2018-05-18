@@ -15,10 +15,6 @@
       "type": "string",
       "required": true
     },
-    "unit": {
-      "type": "string",
-      "required": true
-    },
     "rate": {
       "type": "string",
       "required": true
