@@ -1,6 +1,6 @@
 {
   "name": "user",
-  "plural": "user",
+  "plural": "users",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -11,22 +11,18 @@
       "type": "string",
       "required": true
     },
-    "password": {
+    "userType": {
       "type": "string",
       "required": true
     },
-    "type": {
+    "hashedPassword": {
       "type": "string",
       "required": true
     },
-    "contact": {
-      "type": "string",
-      "required": true
-    },
-    "activation": {
+    "status": {
       "type": "string",
       "required": true,
-      "default": "active"
+      "default": "activated"
     }
   },
   "validations": [],
