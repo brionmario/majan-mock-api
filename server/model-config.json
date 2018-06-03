@@ -17,7 +17,7 @@
     "dataSource": "mongoDS",
     "public": true
   },
-  "client": {
+  "customer": {
     "dataSource": "mongoDS",
     "public": true
   },

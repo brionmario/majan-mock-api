@@ -1,6 +1,6 @@
 {
-  "name": "client",
-  "plural": "client",
+  "name": "customer",
+  "plural": "customers",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -11,7 +11,7 @@
       "type": "string",
       "required": true
     },
-    "contact": {
+    "contactNo": {
       "type": "string",
       "required": true
     },
